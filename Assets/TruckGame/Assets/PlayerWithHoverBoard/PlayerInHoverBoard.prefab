@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &621286268472214472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185637303276757181}
+  m_Layer: 2
+  m_Name: HoverBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &185637303276757181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621286268472214472}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9222893340241211129}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1382608790817889695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8299709678151302457}
+  m_Layer: 2
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8299709678151302457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382608790817889695}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9222893340241211129}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6482683679462385393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9222893340241211129}
+  - component: {fileID: 4553298963479075241}
+  - component: {fileID: 4392059544706509895}
+  m_Layer: 2
+  m_Name: PlayerInHoverBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9222893340241211129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482683679462385393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -100.059, y: 1, z: 137.028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 185637303276757181}
+  - {fileID: 8299709678151302457}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4553298963479075241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482683679462385393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d202edbdb6d974f40aa7e529cf5f98ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverBoardWithPlayerManager
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3050066055486278978, guid: 54170fed7394c7f4fa19742e2faf119d, type: 3}
+    - {fileID: 8025715709433556016, guid: 88d80d3d9e2394a428e9612d8f33c9ba, type: 3}
+    - {fileID: 2725566275766711248, guid: a47df59a0e77d1941af7349d60ba4648, type: 3}
+    - {fileID: 8530357011355964238, guid: f9064d62d2d5ab944bc5514c77d4e4fa, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: hoverBoardWithPlayerParametr
+      Entry: 7
+      Data: HoverBoardWithPlayerParametr, Assembly-CSharp
+    - Name: hoverBoardParametr
+      Entry: 7
+      Data: HoverBoardParametr, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: HoverBoardPref
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: playerParametr
+      Entry: 7
+      Data: PlayerParametrs, Assembly-CSharp
+    - Name: gunParametrs
+      Entry: 7
+      Data: GunParametrs, Assembly-CSharp
+    - Name: gunType
+      Entry: 3
+      Data: 0
+    - Name: gunObject
+      Entry: 10
+      Data: 1
+    - Name: bulletParametrs
+      Entry: 7
+      Data: BulletParametrs, Assembly-CSharp
+    - Name: bulletType
+      Entry: 3
+      Data: 0
+    - Name: bulletPref
+      Entry: 10
+      Data: 2
+    - Name: speed
+      Entry: 4
+      Data: 1
+    - Name: damage
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: maxBulletAmount
+      Entry: 3
+      Data: 10
+    - Name: loadTime
+      Entry: 4
+      Data: 0.1
+    - Name: loadGripTime
+      Entry: 4
+      Data: 5
+    - Name: ShootDistance
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: player
+      Entry: 10
+      Data: 3
+    - Name: healAmount
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: moveSpeed
+      Entry: 4
+      Data: 0
+    - Name: rotateSpeed
+      Entry: 4
+      Data: 0
+    - Name: instant
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: hoverboardControler
+      Entry: 6
+      Data: 
+    - Name: playerControler
+      Entry: 6
+      Data: 
+    - Name: gameControler
+      Entry: 6
+      Data: 
+  playerContent: {fileID: 8299709678151302457}
+  hoverBoardContent: {fileID: 185637303276757181}
+  animator: {fileID: 4392059544706509895}
+  CanMoveRight: 0
+  CanMoveLeft: 0
+--- !u!95 &4392059544706509895
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482683679462385393}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: de4e3137407f9194e8d152d1c658457b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

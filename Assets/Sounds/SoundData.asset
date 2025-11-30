@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50ba331fc48bff42b260bc07ef7df7d, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: Assembly-CSharp::SoundData
+  playerEnemyShootSound: {fileID: 8300000, guid: 315c80926aa6b2449b8ea663697b5790, type: 3}
+  toretShootSound: {fileID: 8300000, guid: 315c80926aa6b2449b8ea663697b5790, type: 3}
+  gameBackgroundSound: {fileID: 8300000, guid: 933c3c23f6be1024db3d1708c2eeddbb, type: 3}
+  gameOverSound: {fileID: 8300000, guid: d865f4efdf5f52d478faff30e2800544, type: 3}
+  uiClickSound: {fileID: 8300000, guid: 266d94d270da2a047ade26885fccb621, type: 3}

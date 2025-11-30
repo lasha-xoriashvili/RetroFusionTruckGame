@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 14000000
+  lastScan: 639001300292907242
+  supportSerializedTypes:
+  - TypeName: System.Action`1[[UnityEngine.GameObject, UnityEngine.CoreModule]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AlertType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BulletParametrs, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BulletType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[AlertType, Assembly-CSharp],[UIAlert,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[EnemyType, Assembly-CSharp],[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[UnityEngine.GameObject,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[PageType, Assembly-CSharp],[UIPage,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnemyType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[AlertType, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[EnemyType, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[PageType, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GunParametrs, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GunType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HoverBoardParametr, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HoverBoardType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HoverBoardWithPlayerParametr, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IAlertControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ICameraControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IColliderControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IDefaulteEnemyControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IEnemySpawnerControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[AlertType, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[EnemyType, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.Int32, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[PageType, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameScreen_Manager.Interface.IGameScreenControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerWithHoverBoard.Player.Gun.IGunControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerWithHoverBoard.HoverBoard.IHoverboardControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Map_Manager.Interface.IMapControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MapVariant_Manager.Interface.IMapVariantControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UI_Manager.Interface.IPageControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerWithHoverBoard.Player.IPlayerControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ITimerControler, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[IDefaulteEnemyControler, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[MapVariant_Manager.SpawnPosition,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PageType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerParametrs, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MapVariant_Manager.SpawnPosition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Transform, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UIAlert, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UIPage, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1

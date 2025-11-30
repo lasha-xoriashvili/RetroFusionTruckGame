@@ -1,0 +1,17 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 10.03.2020 16:53:34
+
+newmtl CarOld02A
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\_LENAR_\1_MyPROJECTS\Delphi\_UNITY_\Tirgames\TirgamesSVN\trunk\TirgamesStylizedWorld\Assets\TirgamesAssets\StylizedWorld\FarmCamp\Textures\CarOld02A.png
+	map_Kd D:\_LENAR_\1_MyPROJECTS\Delphi\_UNITY_\Tirgames\TirgamesSVN\trunk\TirgamesStylizedWorld\Assets\TirgamesAssets\StylizedWorld\FarmCamp\Textures\CarOld02A.png
+	map_bump -bm 0.3000 Map__24_Normal_Bump.tga
